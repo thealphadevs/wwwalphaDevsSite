@@ -2781,10 +2781,10 @@ footer .fa {
 .page .bg-image-top::before
 {
   opacity: 0.86 !important;
-  background-image: linear-gradient(127deg,rgba(0, 0, 0, 0.541) 100%, rgba(56, 76, 255, 0.582) 0%), url('https://hiteshsubnani0128.github.io/Alphadev/assests/svgs/18707-min.jpg') !important;
+  background-image: url(/assets/images/photos/bg/bg-11.png) !important;
   background-position: center;
   background-size: cover;
- filter: 30%;
+  filter: 30%;
 
 }
 
