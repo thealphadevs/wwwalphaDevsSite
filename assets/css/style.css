@@ -2755,3 +2755,63 @@ footer .fa {
 {
   min-height: 240px;
 }
+@media(max-width:992px)
+{
+  .sanctuary-logo
+  {
+    margin-top: -50%;
+    margin-bottom: -10%;
+   
+  }
+}
+
+.btn-bg
+{
+  background-image: url(/assets/images/icons/apps/btn-bg.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 200px;
+}
+.parallex-bg
+{
+  background-image:linear-gradient(127deg, rgba(56, 76, 255, 0.582) 0%, rgba(36, 204, 255, 0.733) 91%),url(/assets/images/photos/bg/bg-1.jpg) !important;
+  background-position: center;
+  background-size: cover;
+}
+.page .bg-image-top::before
+{
+  opacity: 0.86;
+  background-image:linear-gradient(127deg, rgba(56, 76, 255, 0.37) 0%, rgba(36, 204, 255, 0.288) 91%), url(/assets/images/photos/bg/bg-4.jpg) !important;
+  background-position: top;
+  background-size: cover;
+
+
+}
+
+.parallex-bg-1
+{
+  background-image:linear-gradient(127deg, rgba(56, 76, 255, 0.582) 0%, rgba(36, 204, 255, 0.733) 91%),url(/assets/images/photos/bg/bg-5.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.parallex-bg-2
+{
+  background-image:linear-gradient(127deg, rgba(56, 76, 255, 0.226) 0%, rgba(36, 204, 255, 0.247) 91%),url(/assets/images/photos/bg/bg-6.jpg) !important;
+background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.community-btn
+{
+  background-color: #4886FF !important;
+  border-radius: 10px !important;
+  color: white;
+}
+.community-btn:hover
+{
+  background-color: white!important;
+  border-radius: 10px !important;
+  color: #4886FF;
+  border:  1px solid #4886FF;
+}
