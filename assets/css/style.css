@@ -2780,11 +2780,11 @@ footer .fa {
 }
 .page .bg-image-top::before
 {
-  opacity: 0.86;
-  background-image:linear-gradient(127deg, rgba(56, 76, 255, 0.37) 0%, rgba(36, 204, 255, 0.288) 91%), url(/assets/images/photos/bg/bg-4.jpg) !important;
-  background-position: top;
+  opacity: 0.86 !important;
+  background-image: linear-gradient(127deg,rgba(0, 0, 0, 0.541) 100%, rgba(56, 76, 255, 0.582) 0%), url('https://hiteshsubnani0128.github.io/Alphadev/assests/svgs/18707-min.jpg') !important;
+  background-position: center;
   background-size: cover;
-
+ filter: 30%;
 
 }
 
