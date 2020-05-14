@@ -2645,14 +2645,14 @@ footer .fa {
   height: 250px;
 }
 
-@media(max-width:350px) {
+@media(max-width:990px) {
   .app-margin {
-    margin-left: -15px;
+    margin-left: -50px;
   }
 }
 
 .home-box-height {
-  height: 220px;
+  height: 240px;
 }
 
 .team-btn {
@@ -2713,9 +2713,9 @@ footer .fa {
 }
 .alphafooter-icon
 {
-  width: 220px;
+  width: 150px;
   height: 60px;
-  margin-left: -20px;
+
 }
 .fa-heart
 {
