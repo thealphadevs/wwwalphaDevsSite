@@ -2721,3 +2721,37 @@ footer .fa {
 {
   font-size: 14px !important;
 }
+.furrie-btn
+{
+  margin-top: 10%;
+}
+@media(max-width:1200px)
+{
+  .furrie-btn
+{
+  margin-top: 22%;
+}
+.ind-btn
+{
+  margin-top: 10%;
+}
+}
+@media(max-width:765px)
+{
+  .furrie-btn
+{
+  margin-top: 0%;
+}
+.ind-btn
+{
+  margin-top: 0%;
+}
+}
+.contact-icons
+{
+  color: white !important;
+}
+.service-box
+{
+  min-height: 240px;
+}
