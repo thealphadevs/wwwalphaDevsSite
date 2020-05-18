@@ -2635,7 +2635,13 @@ footer .new-dark-logo {
 footer .fa {
   font-size: 25px;
   margin-left: 10px;
-  color: black !important;
+  color: rgba(27, 26, 26, 0.822) !important;
+}
+
+footer .fa:hover {
+  font-size: 25px;
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.925) !important;
 }
 
 .home-services-item {
