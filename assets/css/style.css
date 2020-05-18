@@ -2587,7 +2587,7 @@ footer .copyright {
 }
 
 .fa {
-  color: #384DFF !important;
+  color: #4886FF;
 }
 
 .team-img {
@@ -2635,6 +2635,7 @@ footer .new-dark-logo {
 footer .fa {
   font-size: 25px;
   margin-left: 10px;
+  color: black !important;
 }
 
 .home-services-item {
