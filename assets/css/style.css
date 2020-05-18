@@ -2600,15 +2600,15 @@ footer .copyright {
 }
 
 .new-white-logo {
-  width: 100px;
-  height: 80px;
+  width: 85px;
+  height: 70px;
   margin-top: -20px;
   margin-left: -30px;
 }
 
 .new-dark-logo {
-  width: 100px;
-  height: 80px;
+  width: 85px;
+  height: 70px;
   margin-top: -20px;
   margin-left: -30px;
 }
@@ -2825,6 +2825,9 @@ background-position: bottom;
     {
       margin-top: -20%;
     }
+  .force-left{
+    float: left;
+  }
 
 }
 @media(max-width:425px)
