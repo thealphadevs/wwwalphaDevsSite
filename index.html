@@ -9,12 +9,15 @@
 
 	<meta name="author" content="AlphaDevs" />
 
-		<!-- Favicon -->
-		<link rel="icon" type="image/png" href="assets/images/Alphaicon.png">
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="assets/images/Alphaicon.png">
+	<!-- Preloader CSS -->
+	<link href="assets/css/preloader.css" rel="stylesheet" type="text/css">
 
 	<!-- Bootstrap & Plugins CSS -->
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
 
 	<!-- Custom CSS -->
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
@@ -23,17 +26,17 @@
 
 <body>
 
-	<!-- ***** Preloader Start ***** -->
-	<div class="loader-wrapper">
-		<div class="center">
-			<div class="dot dot-one"></div>
-			<div class="dot dot-two"></div>
-			<div class="dot dot-three"></div>
-			<div class="dot dot-four"></div>
-			<div class="dot dot-five"></div>
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="e-loadholder">
+			<div class="m-loader">
+				<span class="e-text">Loading</span>
+			</div>
 		</div>
+		<div id="particleCanvas-Blue"></div>
+		<div id="particleCanvas-White"></div>
 	</div>
-	<!-- ***** Preloader End ***** -->
+	<!-- Preloader Close -->
 
 	<!-- ***** Header Area Start ***** -->
 	<header class="header-area">
@@ -441,6 +444,19 @@
 
 	<!-- Global Init -->
 	<script src="assets/js/custom.js"></script>
+
+	<!-- Preloader -->
+	<script>
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".preloader").fadeOut("slow");;
+	});
+	</script>
+	<!-- Particle JS -->
+	<script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+	<script src="assets/js/preloader.js"></script>
+	<script  src="./script.js"></script>
+	
 </body>
 
 </html>
