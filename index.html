@@ -23,17 +23,17 @@
 
 <body>
 
-	<!-- ***** Preloader Start ***** -->
-	<div class="loader-wrapper">
-		<div class="center">
-			<div class="dot dot-one"></div>
-			<div class="dot dot-two"></div>
-			<div class="dot dot-three"></div>
-			<div class="dot dot-four"></div>
-			<div class="dot dot-five"></div>
+<!-- partial:index.partial.html -->
+	<div class="preloader">
+		<div class="e-loadholder">
+			<div class="m-loader">
+				<span class="e-text">Loading</span>
+			</div>
 		</div>
+		<div id="particleCanvas-Blue"></div>
+		<div id="particleCanvas-White"></div>
 	</div>
-	<!-- ***** Preloader End ***** -->
+<!-- partial -->
 
 	<!-- ***** Header Area Start ***** -->
 	<header class="header-area">
@@ -422,7 +422,8 @@
 	<!-- ***** Footer Start ***** -->
 
 
-
+	<!-- Particle JS -->
+	<script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script><script  src="./script.js"></script>
 	<!-- jQuery -->
 	<script src="assets/js/jquery-2.1.0.min.js"></script>
 
@@ -439,6 +440,14 @@
 
 	<!-- Global Init -->
 	<script src="assets/js/custom.js"></script>
+
+	<!-- Preloader -->
+	<script>
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".preloader").fadeOut("slow");;
+	});
+	</script>
 </body>
 
 </html>
