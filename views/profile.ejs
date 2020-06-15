@@ -1,0 +1,109 @@
+<%- include('partials/header') %>
+
+<section class="page">
+    <!-- ***** Page Top Start ***** -->
+    <div class="cover bg-image-top">
+        <div class="page-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Profile</h1>
+                    </div>
+                    <div class="col-lg-12">
+                        <ol class="breadcrumb">
+                            <li><a href="index">Home</a></li>
+                            <li class="active">Profile</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Page Top End ***** -->
+
+    <!-- ***** Page Content Start ***** -->
+    <div class="page-bottom pbottom-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div href="#" class="home-services-item service-box">
+                        <i class="fa fa-user"></i>
+                        <h5 class="services-title">Local</h5>
+                        <% if (user.local.username) { %>
+                        <p>
+                            <strong>id</strong>: <%= user._id %><br>
+                            <strong>username</strong>: <%= user.local.name %><br>
+                            <strong>email</strong>: <%= user.local.username %><br>
+                        </p>
+                        <% }else{ %>
+                        <p>
+                            <a class="btn btn-success btn-lg" href="/local/connect" role="button">Create Local
+                                account</a>
+                        </p>
+                        <%}%>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div href="#" class="home-services-item service-box">
+                        <i class="fa  fa-google "></i>
+                        <h5 class="services-title">Google</h5>
+                        <% if (user.google.id) { %>
+                        <p>
+                            <strong>id</strong>: <%= user._id %><br>
+                            <strong>userid</strong>: <%= user.google.id %><br>
+                            <strong>name</strong>: <%= user.google.name %><br>
+                            <strong>email</strong>: <%= user.google.email %>
+                        </p>
+                        <% }else{ %>
+                        <p>
+                            <a class="btn btn-danger btn-lg" href="/google/connect" role="button">Link Google</a>
+                        </p>
+                        <%}%>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div href="#" class="home-services-item service-box">
+                        <i class="fa  fa-github"></i>
+                        <h5 class="services-title">GitHub</h5>
+                        <% if (user.github.id) { %>
+                        <p>
+                            <strong>id</strong>: <%= user._id %><br>
+                            <strong>userid</strong>: <%= user.github.id %><br>
+                            <strong>name</strong>: <%= user.github.name %><br>
+                            <strong>username</strong>: <%= user.github.username %><br>
+                            <strong>email</strong>: <%= user.github.email %>
+                        </p>
+                        <% }else{ %>
+                        <p>
+                            <a class="btn btn-dark btn-lg" href="/github/connect" role="button">Link Github</a>
+                        </p>
+                        <%}%>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div href="#" class="home-services-item service-box">
+                        <i class="fa  fa-linkedin"></i>
+                        <h5 class="services-title">Linkedin</h5>
+                        <% if (user.linkedin.id) { %>
+                        <p>
+                            <strong>id</strong>: <%= user._id %><br>
+                            <strong>userid</strong>: <%= user.linkedin.id %><br>
+                            <strong>name</strong>: <%= user.linkedin.name %><br>
+                            <strong>email</strong>: <%= user.linkedin.email %><br>
+                        </p>
+                        <% }else{ %>
+                        <p>
+                            <a class="btn btn-info btn-lg" href="/linkedin/connect" role="button">Link LinkedIn</a>
+                        </p>
+                        <%}%>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ***** Page Content End ***** -->
+</section>
+
+
+<%- include('partials/footer') %>

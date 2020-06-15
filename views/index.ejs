@@ -1,78 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>AlphaDevs</title>
-
-	<meta name="author" content="AlphaDevs" />
-
-	<!-- Favicon -->
-	<link rel="icon" type="image/png" href="assets/images/Alphaicon.png">
-	<!-- Preloader CSS -->
-	<link href="assets/css/preloader.css" rel="stylesheet" type="text/css">
-
-	<!-- Bootstrap & Plugins CSS -->
-	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-
-	<!-- Custom CSS -->
-	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
-
-</head>
-
-<body>
-
-	<!-- Preloader -->
-	<div class="preloader">
-		<div class="e-loadholder">
-			<div class="m-loader">
-				<span class="e-text">Loading</span>
-			</div>
-		</div>
-		<div id="particleCanvas-Blue"></div>
-		<div id="particleCanvas-White"></div>
-	</div>
-	<!-- Preloader Close -->
-
-	<!-- ***** Header Area Start ***** -->
-	<header class="header-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<nav class="main-nav">
-						<!-- ***** Logo Start ***** -->
-						<a href="index.html" class="logo">
-							<img src="assets/images/alpha-white.png" class="light-logo new-white-logo" alt="Beapp" >
-							<img src="assets/images/alpha-dark.png" class="dark-logo new-dark-logo" alt="Beapp" >
-						</a>
-						<!-- ***** Logo End ***** -->
-
-						<!-- ***** Menu Start ***** -->
-						<ul class="nav">
-							<li><a href="index.html">HOME</a></li>
-							<li><a href="our-work.html">OUR WORK</a></li>
-							<li><a href="services.html">SERVICES</a></li>
-							<li><a href="about-us.html">ABOUT US</a></li>
-							<li><a href="community.html">COMMUNITY</a></li>
-							<li><a href="login.html">LOGIN</a></li>
-                            <li><a href="signup.html">SIGNUP</a></li>
-							<li><a href="contact.html" class="btn-nav-line">CONTACT US</a></li>
-						</ul>
-						<a class="menu-trigger">
-							<span>Menu</span>
-						</a>
-						<!-- ***** Menu End ***** -->						
-					</nav>
-				</div>
-			</div>
-		</div>
-    </header>
-	<!-- ***** Header Area End ***** -->
-
+<%- include('partials/header') %>
 
 	<!-- ***** Wellcome Area Start ***** -->
 	<section class="welcome-area">
@@ -89,8 +15,8 @@
 					<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 align-self-center mt-5 mt-sm-1">
 						<h3 class="hero-heading">You bring the ideas, we do the rest</h3>
 						<h1 class="Alpha-hero"> ALPHADEVS</h1>
-						<p  style="margin-top: -10px;">IDEATE | DESIGN | DEVELOP | DEPLOY</p>
-						<a class="btn-white-line" href="our-work.html">OUR WORK</a>
+						<p style="margin-top: -10px;">IDEATE | DESIGN | DEVELOP | DEPLOY</p>
+						<a class="btn-white-line" href="our-work">OUR WORK</a>
 					</div>
 					<div class="offset-lg-1 col-lg-6 col-md-12 col-sm-12 col-xs-12 align-self-center">
 						<div class="apps">
@@ -124,7 +50,7 @@
 							IoT, AI etc. Putting the same skills to use has yielded us a good track record in number of
 							events and competitions as well. </p>
 					</div>
-					<a href="services.html" class="btn-primary-line">OUR SERVICES</a>
+					<a href="services" class="btn-primary-line">OUR SERVICES</a>
 				</div>
 				<!-- ***** Home About End ***** -->
 
@@ -149,7 +75,10 @@
 				</div>
 				<div class="offset-sm-1 col-lg-10 ">
 					<div class=" center-text ">
-						<p>Take a moment to view some of our latest work. While most of the sites below were built by us from the ground up, we experience a wide range of involvement with our client’s requirements. We do everything from web design, web/app development, consulting, maintenance, graphics, marketing, and everything in between!</p>
+						<p>Take a moment to view some of our latest work. While most of the sites below were built by us
+							from the ground up, we experience a wide range of involvement with our client’s
+							requirements. We do everything from web design, web/app development, consulting,
+							maintenance, graphics, marketing, and everything in between!</p>
 					</div>
 				</div>
 			</div>
@@ -160,29 +89,31 @@
 							<img src="assets/images/photos/blog/21.png" alt="">
 						</div>
 						<h3>
-							<H4 class="work-heading" >Anndata</H4>
+							<H4 class="work-heading">Anndata</H4>
 						</h3>
 						<div class="text">
-							A web-app developed to solve the issue of huger crisis, by helping the people who want to donate food get in touch with people who are in need of food. 
+							A web-app developed to solve the issue of huger crisis, by helping the people who want to
+							donate food get in touch with people who are in need of food.
 						</div>
-					
+
 					</div>
 					<div class="row justify-content-center">
-						<a href="https://anndata.co.in/" class="btn-primary-line " target="_blank">Know  More</a>
+						<a href="https://anndata.co.in/" class="btn-primary-line " target="_blank">Know More</a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12 home-work-margin "  >
+				<div class="col-lg-4 col-md-6 col-sm-12 home-work-margin ">
 					<div class="blog-post-thumb">
 						<div class="img">
 							<img src="assets/images/photos/blog/22.png" alt="">
 						</div>
 						<h3>
-							<H4 class="work-heading " >My Furries</H4>
+							<H4 class="work-heading ">My Furries</H4>
 						</h3>
 						<div class="text ">
-							A web portal developed to cater to all the needs of pet. Its similar to a social media platform but for pet care.
+							A web portal developed to cater to all the needs of pet. Its similar to a social media
+							platform but for pet care.
 						</div>
-					
+
 					</div>
 					<div class="row justify-content-center " style="margin-top: 56px;">
 						<a href="http://myfurries.com/" target="_blank" class="btn-primary-line ">Know More</a>
@@ -194,12 +125,13 @@
 							<img src="assets/images/photos/blog/23.png" alt="">
 						</div>
 						<h3>
-							<H4 class="work-heading" >Incubate IND</H4>
+							<H4 class="work-heading">Incubate IND</H4>
 						</h3>
 						<div class="text">
-							A platform built by our team working in Incubate IND , which is focused on elevating entrepreneurship through technology.
+							A platform built by our team working in Incubate IND , which is focused on elevating
+							entrepreneurship through technology.
 						</div>
-						
+
 					</div>
 					<div class="row justify-content-center" style="margin-top: 54px;">
 						<a href="https://incubateind.com" class="btn-primary-line " target="_blank">Know More</a>
@@ -220,27 +152,29 @@
 				</div>
 				<div class="offset-sm-1 col-lg-10 ">
 					<div class=" center-text ">
-						<p>While we are always focused on delivering the very best to our clients, we also have our own ventures and initiatives that we've been working on.</p>
+						<p>While we are always focused on delivering the very best to our clients, we also have our own
+							ventures and initiatives that we've been working on.</p>
 					</div>
 				</div>
 			</div>
 			<div class="row justify-content-center">
-			
-				<div class="col-lg-4 col-md-6 col-sm-12 home-work-margin "  >
+
+				<div class="col-lg-4 col-md-6 col-sm-12 home-work-margin ">
 					<div class="blog-post-thumb">
 						<div class="img">
 							<img src="assets/images/photos/blog/32.png" alt="">
 						</div>
 						<h3>
-							<H4 class="work-heading " >ATL++</H4>
+							<H4 class="work-heading ">ATL++</H4>
 						</h3>
 						<div class="text ">
-							An edu-tech initiative, based around leveraging AI and Robotics to enhance the existing education system.
+							An edu-tech initiative, based around leveraging AI and Robotics to enhance the existing
+							education system.
 						</div>
-					
+
 					</div>
 					<div class="row justify-content-center " style="margin-top: 56px;">
-						<button href="our-work.html" class="btn-primary-line " disabled>Know More</button>
+						<button href="our-work" class="btn-primary-line " disabled>Know More</button>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-12 home-work-margin">
@@ -249,12 +183,13 @@
 							<img src="assets/images/photos/blog/33.png" alt="" style="height: 175%;width: 110%;">
 						</div>
 						<h3>
-							<H4 class="work-heading" >Covid-19 platform</H4>
+							<H4 class="work-heading">Covid-19 platform</H4>
 						</h3>
 						<div class="text">
-							An incentivised news sharing platform, that curbs the spread of fake news which has proven to be very harmful.
+							An incentivised news sharing platform, that curbs the spread of fake news which has proven
+							to be very harmful.
 						</div>
-						
+
 					</div>
 					<div class="row justify-content-center" style="margin-top: 54px;">
 						<a href="https://youtu.be/1tdWHL4j9EM" class="btn-primary-line " target="_blank">Know More</a>
@@ -267,10 +202,10 @@
 
 
 
-	
-	</div>
 
-	
+		</div>
+
+
 		</div>
 	</section>
 	<!-- ***** Blog End ***** -->
@@ -341,7 +276,7 @@
 
 
 
-	
+
 	<!-- ***** Counter Parallax End ***** -->
 	<!-- ***** Our Team Start ***** -->
 
@@ -350,15 +285,15 @@
 	<!-- ******COntact US ******* -->
 
 	<!-- ***** Parallax Start ***** -->
-	<section class="parallax " >
-		<div class="parallax-content parallex-bg" >
+	<section class="parallax ">
+		<div class="parallax-content parallex-bg">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="info ">
-					
+
 							<p class="justify-content-center "><strong>Want to discuss a project?</strong> </p>
-							<a class="btn-white-line" href="contact.html">Contact Us</a>
+							<a class="btn-white-line" href="contact">Contact Us</a>
 						</div>
 					</div>
 				</div>
@@ -372,46 +307,57 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5 col-md-12 col-sm-12">
-					<img src="assets/images/alpha-footer.png" class="alphafooter-icon"  alt=""  >
-					<div class="text mt-4">AlphaDevs is a group of like-minded people working towards the goal of leveraging technology to make the world around them better.
-						<p>Our team consists of people with a variety of skills, ranging from software development to IoT, AI etc. Putting the same skills to use has yielded us a good track record in number of events and competitions as well.</p>
+					<img src="assets/images/alpha-footer.png" class="alphafooter-icon" alt="">
+					<div class="text mt-4">AlphaDevs is a group of like-minded people working towards the goal of
+						leveraging technology to make the world around them better.
+						<p>Our team consists of people with a variety of skills, ranging from software development to
+							IoT, AI etc. Putting the same skills to use has yielded us a good track record in number of
+							events and competitions as well.</p>
 					</div>
 				</div>
 				<div class="col-lg-2 col-md-4 col-sm-6 col-6">
 					<h5>Helpful Links</h5>
 					<ul class="footer-nav">
-						<li><a href="index.html"><i class="fa fa-angle-right"></i><span>Home</span></a></li>
-						<li><a href="our-work.html"><i class="fa fa-angle-right"></i><span>Our Work</span></a></li>
-						<li><a href="about-us.html"><i class="fa fa-angle-right"></i><span>About Us</span></a></li>
-						<li><a href="services.html"><i class="fa fa-angle-right"></i><span>Services</span></a></li>
-				
-						<li><a href="contact.html"><i class="fa fa-angle-right"></i><span>Contact Us</span></a></li>
+						<li><a href="index"><i class="fa fa-angle-right"></i><span>Home</span></a></li>
+						<li><a href="our-work"><i class="fa fa-angle-right"></i><span>Our Work</span></a></li>
+						<li><a href="about-us"><i class="fa fa-angle-right"></i><span>About Us</span></a></li>
+						<li><a href="services"><i class="fa fa-angle-right"></i><span>Services</span></a></li>
+						<li><a href="contact"><i class="fa fa-angle-right"></i><span>Contact Us</span></a></li>
 					</ul>
 				</div>
 				<div class="col-lg-2 col-md-4 col-sm-6 col-7 pr-0 app-margin">
 					<h5>Our Work</h5>
 					<ul class="footer-nav">
-						<li><a href="https://anndata.co.in/" target="_blank"><i class="fa fa-angle-right"></i><span>Anndata</span></a></li>
-						<li><a href="http://myfurries.com/"><i class="fa fa-angle-right"></i><span>My Furries</span></a></li>
-						<li><a href="https://incubateind.com/" target="_blank"><i class="fa fa-angle-right"></i><span>Incubate IND</span></a></li>
-						<li><a href="our-work.html"><i class="fa fa-angle-right"></i><span>ATL++</span></a></li>
-						<li><a href="https://youtu.be/1tdWHL4j9EM" target="_blank"><i class="fa fa-angle-right"></i><span>Covid-19 platform</span></a></li>
-					
-	
+						<li><a href="https://anndata.co.in/" target="_blank"><i
+									class="fa fa-angle-right"></i><span>Anndata</span></a></li>
+						<li><a href="http://myfurries.com/"><i class="fa fa-angle-right"></i><span>My Furries</span></a>
+						</li>
+						<li><a href="https://incubateind.com/" target="_blank"><i
+									class="fa fa-angle-right"></i><span>Incubate IND</span></a></li>
+						<li><a href="our-work"><i class="fa fa-angle-right"></i><span>ATL++</span></a></li>
+						<li><a href="https://youtu.be/1tdWHL4j9EM" target="_blank"><i
+									class="fa fa-angle-right"></i><span>Covid-19 platform</span></a></li>
+
+
 					</ul>
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-12">
 					<h5>Contact Us</h5>
 					<div class="address">
-						
+
 						<p><span>E-Mail:</span><a href="#">alphadevs.info@gmail.com</a></p>
 						<ul class="social">
-							<li><a href="https://m.facebook.com/Alphadevs11/" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-							<li><a href=" https://twitter.com/Alphadevs1?s=08" target="_blank"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="https://www.linkedin.com/company/thealphadevs/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
-							<li><a href="https://instagram.com/alpha_devs?igshid=1nx5ce20x4edk" target="_blank"><i class="fa fa-instagram"></i></a></li>
-							
-							<li><a href="https://github.com/orgs/thealphadevs/dashboard" target="_blank"><i class="fa fa-github"></i></a></li>
+							<li><a href="https://m.facebook.com/Alphadevs11/" target="_blank"><i
+										class="fa fa-facebook-square"></i></a></li>
+							<li><a href=" https://twitter.com/Alphadevs1?s=08" target="_blank"><i
+										class="fa fa-twitter"></i></a></li>
+							<li><a href="https://www.linkedin.com/company/thealphadevs/" target="_blank"><i
+										class="fa fa-linkedin-square"></i></a></li>
+							<li><a href="https://instagram.com/alpha_devs?igshid=1nx5ce20x4edk" target="_blank"><i
+										class="fa fa-instagram"></i></a></li>
+
+							<li><a href="https://github.com/orgs/thealphadevs/dashboard" target="_blank"><i
+										class="fa fa-github"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -419,7 +365,9 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<p class="copyright">Copyright &copy
-						<script>document.write(new Date().getFullYear());</script> All rights reserved | Developed by  Alpha Devs</span> <img src="/assets/images/Alphaicon.png" alt="" style="width: 30px;height: 20px;"></p>
+						<script>document.write(new Date().getFullYear());</script> All rights reserved | Developed by
+						Alpha Devs</span> <img src="/assets/images/Alphaicon.png" alt=""
+							style="width: 30px;height: 20px;"></p>
 				</div>
 			</div>
 		</div>
@@ -428,7 +376,8 @@
 
 
 	<!-- Particle JS -->
-	<script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script><script  src="./script.js"></script>
+	<script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+	<script src="./script.js"></script>
 	<!-- jQuery -->
 	<script src="assets/js/jquery-2.1.0.min.js"></script>
 
@@ -448,16 +397,16 @@
 
 	<!-- Preloader -->
 	<script>
-	$(window).load(function() {
-		// Animate loader off screen
-		$(".preloader").fadeOut("slow");;
-	});
+		$(window).load(function () {
+			// Animate loader off screen
+			$(".preloader").fadeOut("slow");;
+		});
 	</script>
 	<!-- Particle JS -->
 	<script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
 	<script src="assets/js/preloader.js"></script>
-	<script  src="./script.js"></script>
-	
+	<script src="./script.js"></script>
+
 </body>
 
 </html>

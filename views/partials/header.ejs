@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from demo.tempload.com/beapp-1-1/about-us by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 May 2020 05:47:27 GMT -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alpha Devs</title>
+    <meta name="description" content="Beapp is a Mobile App Development Agency HTML5 Template by tempload." />
+    <meta name="keywords" content="beapp, mobile app, agency, development, html, template, tempload" />
+    <meta name="author" content="tempload" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/Alphaicon.png">
+
+    <!-- Bootstrap & Plugins CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118135390-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-118135390-1');
+    </script>
+</head>
+
+<body>
+    <!-- ***** Preloader Start ***** -->
+    <div class="loader-wrapper">
+        <div class="center">
+            <div class="dot dot-one"></div>
+            <div class="dot dot-two"></div>
+            <div class="dot dot-three"></div>
+            <div class="dot dot-four"></div>
+            <div class="dot dot-five"></div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index" class="logo">
+                            <img src="assets/images/alpha-white.png" class="light-logo new-white-logo" alt="Beapp">
+                            <img src="assets/images/alpha-dark.png" class="dark-logo new-dark-logo" alt="Beapp">
+                        </a>
+                        <!-- ***** Logo End ***** -->
+
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav nav">
+                            <li><a href="index">HOME</a></li>
+                            <li><a href="our-work">OUR WORK</a></li>
+                            <li><a href="about-us">ABOUT US</a></li>
+                            <li><a href="services">SERVICES</a></li>
+                            <li><a href="community">COMMUNITY</a></li>
+                            <% if(!user){%>
+                            <li><a href="login">LOGIN</a></li>
+                            <li><a href="signup">SIGNUP</a></li>
+                            <% }else{ %>
+                            <li><a href="profile">DASHBOARD</a></li>
+                            <li><a href="logout">LOGOUT</a></li>
+                            <% } %>
+                            <li><a href="contact" class="btn-nav-line">CONTACT US</a></li>
+                        </ul>
+                        <a class="menu-trigger">
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->

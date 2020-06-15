@@ -1,0 +1,43 @@
+{
+  "name": "alphadevssite",
+  "version": "1.0.0",
+  "description": "Alphadevs official website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kroy96/alphaDevsSite.git"
+  },
+  "author": "Atul Bhardwaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kroy96/alphaDevsSite/issues"
+  },
+  "homepage": "https://github.com/kroy96/alphaDevsSite#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.3.3",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "helmet": "^3.23.0",
+    "mongoose": "^5.9.18",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-github2": "^0.1.12",
+    "passport-google-oauth": "^2.0.0",
+    "passport-linkedin-oauth2": "^2.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
