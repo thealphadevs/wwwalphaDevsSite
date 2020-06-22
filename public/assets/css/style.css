@@ -229,9 +229,10 @@ ul {
   height: 300px;
 }
 
-.z-index-ve{
+.z-index-ve {
   z-index: -1;
 }
+
 /* 
 ---------------------------------------------
 global styles
@@ -931,7 +932,7 @@ welcome area
   height: 100%;
   opacity: 0.85;
 
-  background-image:  url('https://hiteshsubnani0128.github.io/Alphadev/assests/svgs/18707-min.jpg');
+  background-image: url('https://hiteshsubnani0128.github.io/Alphadev/assests/svgs/18707-min.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1413,7 +1414,7 @@ home
 }
 
 .parallax .parallax-content {
-  background-image:  linear-gradient(127deg, #384DFF 0%, #24CDFF 91%),url(/assets/images/alpha-white.png);
+  background-image: linear-gradient(127deg, #384DFF 0%, #24CDFF 91%), url(/assets/images/alpha-white.png);
   height: 280px;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -2640,112 +2641,106 @@ footer .fa:hover {
   font-weight: 600;
 }
 
-@media(max-width:992px)
-{
+@media(max-width:992px) {
 
   .home-work-margin {
     margin-bottom: 14%;
   }
 
 }
-.team-behind-head
-{
+
+.team-behind-head {
   font-weight: 700;
   font-size: 46px;
   color: #4886FF;
   letter-spacing: 6px;
 }
-.Alpha-hero
-{
+
+.Alpha-hero {
   font-weight: bolder !important;
 
   font-size: 48px !important;
 }
-.hero-heading
-{
+
+.hero-heading {
   font-size: 32px !important;
   color: white;
 
 }
-@media(max-width:990px)
-{
-  .hero-heading
-{
-  font-size: 22px !important;
-  color: white;
+
+@media(max-width:990px) {
+  .hero-heading {
+    font-size: 22px !important;
+    color: white;
+
+  }
 
 }
 
-}
-.alphafooter-icon
-{
+.alphafooter-icon {
   width: 150px;
   height: 60px;
 
 }
-.fa-heart
-{
+
+.fa-heart {
   font-size: 14px !important;
 }
-.furrie-btn
-{
+
+.furrie-btn {
   margin-top: 10%;
 }
-@media(max-width:1200px)
-{
-  .furrie-btn
-{
-  margin-top: 22%;
-}
-.ind-btn
-{
-  margin-top: 10%;
-}
-}
-@media(max-width:765px)
-{
-  .furrie-btn
-{
-  margin-top: 0%;
-}
-.ind-btn
-{
-  margin-top: 0%;
-}
-}
-.contact-icons
-{
-  color: white !important;
-}
-.service-box
-{
-  min-height: 240px;
-}
-@media(max-width:992px)
-{
-  .sanctuary-logo
-  {
-    margin-top: -50%;
-    margin-bottom: -10%;
-   
+
+@media(max-width:1200px) {
+  .furrie-btn {
+    margin-top: 22%;
+  }
+
+  .ind-btn {
+    margin-top: 10%;
   }
 }
 
-.btn-bg
-{
+@media(max-width:765px) {
+  .furrie-btn {
+    margin-top: 0%;
+  }
+
+  .ind-btn {
+    margin-top: 0%;
+  }
+}
+
+.contact-icons {
+  color: white !important;
+}
+
+.service-box {
+  min-height: 240px;
+}
+
+@media(max-width:992px) {
+  .sanctuary-logo {
+    margin-top: -50%;
+    margin-bottom: -10%;
+
+  }
+}
+
+.btn-bg {
   background-image: url(/assets/images/icons/apps/btn-bg.png);
   background-position: center;
   background-size: cover;
   min-height: 200px;
 }
-.parallex-bg
-{
-  background-image:linear-gradient(127deg, rgba(56, 76, 255, 0.582) 0%, rgba(36, 204, 255, 0.733) 91%),url(/assets/images/photos/bg/bg-1.jpg) !important;
+
+.parallex-bg {
+  background-image: linear-gradient(127deg, rgba(56, 76, 255, 0.582) 0%, rgba(36, 204, 255, 0.733) 91%), url(/assets/images/photos/bg/bg-1.jpg) !important;
   background-position: center;
   background-size: cover;
 }
-.page .bg-image-top::before
-{
+
+.page .bg-image-top::before {
   opacity: 0.86 !important;
   background-image: url(/assets/images/photos/bg/bg-11.png) !important;
   background-position: center;
@@ -2754,130 +2749,170 @@ footer .fa:hover {
 
 }
 
-.parallex-bg-1
-{
-  background-image:linear-gradient(127deg, rgba(56, 76, 255, 0.582) 0%, rgba(36, 204, 255, 0.733) 91%),url(/assets/images/photos/bg/bg-5.jpg) !important;
+.parallex-bg-1 {
+  background-image: linear-gradient(127deg, rgba(56, 76, 255, 0.582) 0%, rgba(36, 204, 255, 0.733) 91%), url(/assets/images/photos/bg/bg-5.jpg) !important;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
-.parallex-bg-2
-{
-  background-image:linear-gradient(127deg, rgba(56, 76, 255, 0.226) 0%, rgba(36, 204, 255, 0.247) 91%),url(/assets/images/photos/bg/bg-6.jpg) !important;
-background-position: bottom;
+
+.parallex-bg-2 {
+  background-image: linear-gradient(127deg, rgba(56, 76, 255, 0.226) 0%, rgba(36, 204, 255, 0.247) 91%), url(/assets/images/photos/bg/bg-6.jpg) !important;
+  background-position: bottom;
   background-size: cover;
   background-attachment: fixed;
 }
-.community-btn
-{
+
+.community-btn {
   background-color: #4886FF !important;
   border-radius: 10px !important;
   color: white;
 }
-.community-btn:hover
-{
-  background-color: white!important;
+
+.community-btn:hover {
+  background-color: white !important;
   border-radius: 10px !important;
   color: #4886FF;
-  border:  1px solid #4886FF;
+  border: 1px solid #4886FF;
 }
-.description-community
-{
+
+.description-community {
   margin-top: 70px;
 }
-@media(max-width:992px)
-{
-  .description-community
-    {
-      margin-top: -20%;
-    }
-  .force-left{
+
+@media(max-width:992px) {
+  .description-community {
+    margin-top: -20%;
+  }
+
+  .force-left {
     float: left;
   }
 
 }
-@media(max-width:425px)
-{
-  .description-community
-    {
-      margin-top: -40%;
-    }
+
+@media(max-width:425px) {
+  .description-community {
+    margin-top: -40%;
+  }
 
 }
-.btn-margin
-{
+
+.btn-margin {
   margin-left: -50px;
 }
-.login-head
-{
+
+.login-head {
   color: #6F8BA4;
   font-weight: 700;
 }
-.login-card
-{
+
+.login-card {
   border: none;
   border-radius: 5px;
   box-shadow: 0px 0px 5px 0.001em rgb(182, 182, 182);
-  
+
 }
-@media(max-widht:766px)
-{
-  .login-card
-  {
+
+@media(max-widht:766px) {
+  .login-card {
     margin-top: 20px;
   }
 }
-.card label
-{
+
+.card label {
   color: rgb(84, 151, 214);
   font-weight: 600;
   margin-left: 10px;
   font-size: 16px;
 }
-.login-btn
-{
+
+.login-btn {
   background-color: rgb(52, 118, 252);
   width: 80%;
   border: none;
   border-radius: 20px;
 }
-form a 
-{
+
+form a {
   color: #4886FF;
 }
-.login-form::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+
+.login-form::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
   color: rgb(170, 174, 179);
 }
-.login-form::-moz-placeholder { /* Firefox 19+ */
+
+.login-form::-moz-placeholder {
+  /* Firefox 19+ */
   color: pink;
 }
-.login-form:-ms-input-placeholder { /* IE 10+ */
+
+.login-form:-ms-input-placeholder {
+  /* IE 10+ */
   color: pink;
 }
-.login-form:-moz-placeholder { /* Firefox 18- */
+
+.login-form:-moz-placeholder {
+  /* Firefox 18- */
   color: pink;
 }
-.remember
-{
+
+.remember {
   color: rgb(127, 132, 136);
   font-size: 16px;
 }
-.my-furry-btn
-{
+
+.my-furry-btn {
   margin-top: 25px;
 }
-@media(max-width:1200px)
-{
-  .my-furry-btn
-{
-  margin-top: 50px;
-}
+
+@media(max-width:1200px) {
+  .my-furry-btn {
+    margin-top: 50px;
+  }
 }
 
-@media(max-width:767px)
-{
-  .img-login
-  {
+@media(max-width:767px) {
+  .img-login {
     display: none;
   }
+}
+
+.mentor-box-height-1 {
+  min-height: 280px;
+}
+
+@media(max-width:1199.5px) {
+  .mentor-box-height-1 {
+    min-height: 340px;
+  }
+
+  .mentor-box-height-2 {
+    min-height: 340px;
+  }
+
+}
+@media(max-width:575.5px) {
+  .mentor-box-height-1 {
+    min-height: 240px;
+  }
+
+  .mentor-box-height-2 {
+    min-height: 240px;
+  }
+
+}
+.login-social-icon
+{
+  font-size: 32px;
+  padding: 20px;
+  color: #3B566E;
+  transition: ease 0.5s ;
+}
+.login-social-icon:hover
+{
+  font-size: 32px;
+  padding: 20px;
+  color: #233442;
 }
