@@ -646,8 +646,8 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a.active {
 }
 
 .navbar-brand>img {
-    width: 120px;
-    margin: 13px 0 0;
+    width: 42px;
+    margin: 5px 0 0;
 }
 
 .navbar-brand {
@@ -1284,6 +1284,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a:hover {
 }
 .pricing-tables p {
     font-size: 16px;
+    line-height: 24px;
 }
 
 .less-opacity {
@@ -1525,6 +1526,8 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a:hover {
 /* Seperated Section */
 .dual-section {
    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+   background: linear-gradient(135deg, rgba(33, 28, 59, 0.94) 0%, rgba(33, 28, 59, 0.94)100%), url(../images/other/bg.png) center !important ;
+    background-attachment: fixed !important;
 }
 
 .dual-section .text {
