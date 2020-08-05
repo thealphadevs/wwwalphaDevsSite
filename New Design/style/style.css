@@ -2263,9 +2263,18 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a:hover {
 }
 
 .default-header p {
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 500;
     margin-bottom: 30px;
+    line-height: 30px;
+}
+@media(max-width:1040px)
+{
+    .default-header p
+    {
+        font-weight: 400;
+        font-size: 14px;
+    }
 }
 
 /* PAGE HEADER STYLE ENDS HERE */
@@ -2985,7 +2994,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a:hover {
 }
 
 .team .social-links {
-    margin: 25px 0 0 0;
+    margin: 0px 0 0 0;
 }
 
 .team .social-links i {
