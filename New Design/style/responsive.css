@@ -4,7 +4,7 @@
     }
 
     .home-carousel {
-        padding: 120px 0;
+        /* padding: 120px 0; */
     }
 
     .custom-width {
@@ -77,14 +77,17 @@
     }
 
 }
+
 @media screen and (max-width:1199px) {
     .domain-boxes .margin-bottom {
         margin-bottom: 30px;
     }
+
     .ssl-boxes .margin-bottom-sm {
         margin-bottom: 30px;
     }
 }
+
 @media screen and (max-width:1200px) {
     .layout-text .text-container {
         width: auto;
@@ -93,9 +96,11 @@
     .search-domain .text {
         margin-right: 0;
     }
+
     .colorful-section .text {
         padding-right: 0;
     }
+
     .layout-text .img-absolute {
         width: 100%;
     }
@@ -143,7 +148,7 @@
     }
 
     .home-carousel {
-        padding: 80px 0;
+        /* padding: 80px 0; */
     }
 
     .home-header .btn+.btn {
@@ -181,60 +186,76 @@
         display: none;
     }
 }
+
 @media screen and (max-width:991px) {
     .domain-boxes .xs-margin {
         margin-bottom: 30px;
     }
-.pricing-tables .price-margin-top {
-    margin-top: 30px;
+
+    .pricing-tables .price-margin-top {
+        margin-top: 30px;
+    }
+
+    .pricing-tables-light .table-content {
+        margin: 0 auto 70px;
+    }
+
+    .pricing-tables .last-child {
+        margin-top: 30px;
+    }
+
+    .pricing-tables .table-list li {
+        text-align: center;
+    }
+
+    .features-five .text-content {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .features-five .col-xs-12:last-child .text-content {
+        margin-bottom: 0;
+    }
 }
-.pricing-tables-light .table-content {
-    margin: 0 auto 70px;
-}
-.pricing-tables .last-child {
-    margin-top: 30px;
-}
-.pricing-tables  .table-list li {
-text-align: center;
-}
-.features-five .text-content {
-    margin-right: 0;
-    margin-bottom: 10px;
-}
-.features-five .col-xs-12:last-child .text-content {
-    margin-bottom: 0;
-}
-}
+
 @media screen and (max-width:992px) {
     nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu>li>a:hover {
         color: #fff;
         padding-left: 10px;
     }
+
     .wrap-sticky nav.navbar.bootsnav {
         background: #19233F;
         border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     }
+
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a {
         background: transparent;
     }
+
     nav.navbar.bootsnav .navbar-toggle {
         background: transparent;
         color: #fff;
     }
+
     .pricing-tables .table {
         margin: 0;
     }
+
     .features-two .box-shadow {
         padding: 30px 20px 10px 20px;
     }
-    nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu>li>a{
+
+    nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu>li>a {
         padding: 10px;
         border-bottom: 1px solid rgba(240, 240, 240, 0.1);
     }
+
     .features-four img {
         margin-left: 0;
         margin-top: 25px;
     }
+
     .features-five i {
         float: none !important;
         margin: 0 0 20px;
@@ -243,10 +264,12 @@ text-align: center;
     .pricing-tables-light .col-xs-12:last-child .table-content {
         margin-bottom: 0;
     }
+
     .pricing-tables-light .table-content li {
         display: block;
         text-align: center;
     }
+
     .layout-text.right-layout img {
         margin-bottom: 40px;
     }
@@ -254,10 +277,12 @@ text-align: center;
     .layout-text.left-layout img {
         margin-top: 40px;
     }
+
     .layout-text.layout-domain .text-container img {
         margin-top: 0;
         margin-bottom: 0;
     }
+
     .features-two img {
         margin-top: 40px;
         margin-bottom: 10px;
@@ -267,6 +292,7 @@ text-align: center;
         float: none !important;
         margin: 0 0 20px;
     }
+
     .features-five .column {
         margin-bottom: 0;
     }
@@ -409,7 +435,7 @@ text-align: center;
     }
 
     nav.navbar.bootsnav .navbar-brand>img {
-        margin: 5px 0;
+        margin: -15px 0;
     }
 
     .top-bar .left-topbar {
@@ -557,19 +583,24 @@ text-align: center;
     .ssl-boxes .margin-bottom-xs {
         margin-bottom: 30px;
     }
+
     .team .members {
         margin-bottom: 30px;
     }
+
     .pricing-tables .mobile-margin-top {
         margin-top: 30px;
     }
+
     .features-four .text-container {
         margin-bottom: 20px;
     }
+
     .features-four .content-top {
         margin-bottom: 0;
     }
-    .team .col-sm-3:last-child .members{
+
+    .team .col-sm-3:last-child .members {
         margin-bottom: 0;
     }
 
@@ -577,15 +608,19 @@ text-align: center;
     .colorful-boxes .box2 {
         margin-bottom: 0;
     }
+
     .table {
         padding: 20px;
     }
+
     .colorful-section .text-content {
         margin-bottom: 25px;
     }
+
     .colorful-section .col-lg-4:last-child .text-content {
         margin-bottom: 0;
     }
+
     .custom-pricing .table {
         margin: 0 auto 30px;
         width: 400px;
@@ -630,6 +665,11 @@ text-align: center;
 }
 
 @media only screen and (max-width:768px) {
+    .navbar {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
     .top-bar .left-topbar {
         display: none;
     }
@@ -728,7 +768,7 @@ text-align: center;
     }
 
     .home-carousel {
-        padding: 60px 0;
+        /* padding: 60px 0; */
     }
 
     .under_footer_links {
@@ -791,6 +831,7 @@ text-align: center;
     .pricing-tables-light .table-content li {
         text-align: left;
     }
+
     p,
     li {
         font-size: 15px;
@@ -903,11 +944,13 @@ text-align: center;
         padding: 20px 20px 10px;
     }
 }
+
 @media only screen and (max-width:400px) {
     .pricing-tables .table-list li {
         text-align: left;
     }
 }
+
 @media only screen and (max-width:350px) {
     .default-header h3 {
         font-size: 30px;

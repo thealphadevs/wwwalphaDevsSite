@@ -210,7 +210,7 @@ li.close-full-menu {
 =================================*/
 .attr-nav {
     float: right;
-    margin-left:15px;
+    margin-left: 15px;
     margin-right: 0;
 }
 
@@ -299,7 +299,7 @@ ul.cart-list>li>p {
 }
 
 ul.cart-list>li.total {
-    background-color: #1f2b4b ;
+    background-color: #1f2b4b;
     padding-bottom: 15px !important;
 }
 
@@ -416,6 +416,7 @@ body.on-side {
     margin-top: 3px;
     margin-right: 5px;
 }
+
 .side .social-links {
     margin: 25px 0 0 0;
 }
@@ -433,14 +434,17 @@ body.on-side {
     margin-right: 5px;
     transition: .1s linear;
 }
+
 .side .social-links i:hover {
     background: #4270E4;
     color: #fff;
 }
+
 .side i.fa.fa-times {
     position: relative;
     bottom: 5px;
 }
+
 /* Share
 =================================*/
 nav.navbar.bootsnav .share {
@@ -1026,9 +1030,7 @@ nav.navbar.bootsnav.no-background {
     }
 
     nav.navbar.bootsnav .navbar-toggle {
-        float: left;
-        margin-right: -200px;
-        margin-top: 10px;
+        float: right;
     }
 
     nav.navbar.bootsnav .navbar-collapse {
