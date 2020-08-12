@@ -874,3 +874,24 @@ form a {
     margin-top: auto;
     margin-bottom: auto;
 }
+
+.phn-text,
+.img-absolute {
+    display: none;
+}
+
+@media(max-width: 765px) {
+    #anim {
+        display: none;
+    }
+
+
+    .phn-text {
+        display: block;
+        margin-top: 20vh;
+    }
+
+    .img-absolute {
+        display: block;
+    }
+}
