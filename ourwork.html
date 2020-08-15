@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="ThemeKolor">
     <meta name="keywords" content="vps,dedicated,cloud,hosting,hosting template,whmcs, hosting whmcs,whmcs template">
-    <link rel="icon" type="image/png" sizes="20x22" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
     <!-- Page title -->
     <title>AlphaDevs</title>
     <!-- CSS FILES -->
@@ -34,6 +34,7 @@
         href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,400&display=swap"
         rel="stylesheet">
 
+
     <!-- custom css ends -->
 
 
@@ -41,9 +42,25 @@
 
 <body>
     <div id="fakeLoader"></div>
+    <!-- Start of topbar -->
+    <div class="top-bar">
+        <div class="custom-width">
+            <div class="left-topbar">
+                <p>Welcome to AlphaDevs</p>
+            </div>
+            <div class="right-topbar">
+                <a class="topbar-link" href="mailto:alphadevs.info@gmail.com"><i class="fa fa-envelope"></i>
+                    info@alphadevs.tech</a>
+
+                <!-- <a class="topbar-link" href="../whmcs/clientarea.php.html"><i class="fa fa-user"></i> My
+                    Account</a> -->
+            </div>
+        </div>
+    </div>
+    <!-- End of topbar -->
 
     <!-- Navbar content -->
-    <nav class="navbar navbar-default dark navbar-sticky bootsnav">
+    <nav class="navbar navbar-default dark navbar-sticky no-background bootsnav">
         <!-- Start Top Search -->
         <div class="top-search">
             <div class="container">
@@ -57,15 +74,22 @@
         <!-- End Top Search -->
 
         <div class="custom-width">
+            <!-- Start Atribute Navigation -->
+            <div class="attr-nav">
+                <ul>
+
+                    <!--  <li class="search"><a href="#"><i class="fa fa-search"></i></a></li> -->
+                    <li class="side-menu"><a href="#"><i class="fa fa-bars"></i></a></li>
+                </ul>
+            </div>
+            <!-- End Atribute Navigation -->
+
             <!-- Start Header Navigation -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                     <i class="fa fa-bars"></i>
                 </button>
-                <!-- <a class="navbar-brand aligment-for-home" href="index.html"><img src="images/logo/shadow-alpha.png"
-                        class="logo" alt=""></a> -->
-                <a class="navbar-brand aligment-for-home" href="index.html"><img src="images/logo/logo-alt.png"
-                        class="logo" alt=""></a>
+                <a class="navbar-brand" href="index.html"><img src="images/logo/logo-alt.png" class="logo" alt=""></a>
             </div>
             <!-- End Header Navigation -->
 
@@ -73,11 +97,11 @@
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="nav navbar-nav navbar-right" data-in="fadeIn" data-out="fadeOut">
                     <li>
-                        <a href="index.html" class="dropdown-toggle active" data-toggle="dropdown">Home</a>
+                        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Home</a>
 
                     </li>
                     <li>
-                        <a href="ourwork.html" class="dropdown-toggle" data-toggle="dropdown">Our Work</a>
+                        <a href="ourwork.html" class="dropdown-toggle" data-toggle="dropdown">Our work</a>
 
                     </li>
                     <li>
@@ -88,26 +112,28 @@
                         <a href="contactus.html" class="dropdown-toggle" data-toggle="dropdown">Contact Us</a>
 
                     </li>
+
                     <li>
                         <a href="community.html" class="dropdown-toggle" data-toggle="dropdown">Community</a>
 
                     </li>
 
-
                     <!-- <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Pages</a>
                         <ul class="dropdown-menu">
                             <li><a href="domain.html">Domain Page</a></li>
                             <li><a href="ssl.html">SSL Page</a></li>
                             <li><a href="shared.html">Shared Hosting</a></li>
                             <li><a href="cloud.html">Cloud Hosting</a></li>
                             <li><a href="wordpress.html">Wordpress Hosting</a></li>
-                            <li><a href="dedicated.html">Dedicated Hosting</a></li>
+                            <li><a class="active" href="dedicated.html">Dedicated Hosting</a></li>
                             <li><a href="about.html">About Us</a></li>
                             <li><a href="contact.html">Contact Us</a></li>
                             <li><a href="error-404.html">Error 404</a></li>
                         </ul>
                     </li> -->
+
+
 
                 </ul>
             </div><!-- /.navbar-collapse -->
@@ -127,6 +153,8 @@
                 <h6 class="title">Contact Us</h6>
                 <ul class="link">
                     <li><i class="fa fa-envelope"></i> info@alphadevs.tech</li>
+                    <!-- <li><i class="fa fa-phone"></i> +1 (33) 4456 889</li> -->
+                    <!-- <li><a href="#"><i class="fa fa-comments"></i>Livechat</a></li> -->
                 </ul>
             </div>
             <div class="widget">
@@ -147,81 +175,7 @@
     </nav>
     <!-- Navbar Content ends here -->
 
-    <!-- Home Page Carousel -->
-    <div class="home-carousel">
-        <!-- Left sidebar -->
-        <div class="left-sidebar">
-            <div class="contact-links link-style">
-                <a data-toggle="modal" data-target="#myModal"><i class="fas fa-phone"></i></a>
-                <a data-toggle="modal" data-target="#myModal"><i class="far fa-envelope-open"></i></a>
 
-                <div class="notification">+</div>
-                </a>
-            </div>
-            <div class="sidebar-socials link-style">
-                <a href="https://m.facebook.com/Alphadevs11/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/alpha_devs/?igshid=1nx5ce20x4edk" target="_blank"><i
-                        class="fab fa-instagram"></i></a>
-                <a href="https://twitter.com/Alphadevs1?s=08" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/company/thealphadevs/" target="_blank"><i
-                        class="fab fa-linkedin-in"></i></a>
-                <a href="https://github.com/orgs/thealphadevs/dashboard" target="_blank"><i
-                        class="fab fa-github"></i></a>
-            </div>
-        </div>
-        <!-- MODAL  -->
-        <div id="myModal" class="modal fade" role="dialog">
-            <div class="modal-dialog modal-sm">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Please feel free to contact us</h4>
-                    </div>
-                    <div class="modal-body">
-
-                        <div class="modal-contact">
-                            <i class="fa fa-envelope"></i>
-                            <h4>info@alphadevs.tech</h4>
-                        </div>
-
-                        <div class="modal-contact">
-                            <i class="fa fa-envelope"></i>
-                            <h4>career@alphadevs.tech</h4>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-blue btn-small" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!-- end of modal -->
-
-        <!-- Left Sidebar ends here -->
-        <div class="custom-width">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div id="anim"></div>
-                </div>
-                <div class="col-sm-12 phn-text">
-                    <div class="text-container">
-                        <div class="home-title animated fadeInLeft">
-                            <h2>AlphaDevs</h2>
-                            <h4 class="animation-text">Bring your idea, We do the rest</h4>
-                            <p>IDEATE | CREATE | DEPLOY</p>
-                            <div class="buttons">
-                                <a href="#" class="btn btn-medium btn-green">Know More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="images/png-images/world2.png" class=" img-absolute" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Home Page Carousel -->
 
     <!-- Domain Search section -->
     <!-- <div class="search-domain">
@@ -253,45 +207,6 @@
         </div>
     </div> -->
     <!-- Domain Search section ends here -->
-
-
-    <!-- About section - Text right  -->
-    <div class="layout-text right-layout padding-bottom60 padding-top60" style="background-color: #1c2746;">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="text-container" data-aos="fade-up">
-                        <h3>ABOUT US</h3>
-                        <div class="text-content">
-                            <i class="far fa-check-circle pull-left"></i>
-                            <div class="text">
-                                <p>AlphaDevs is a group of like-minded people working towards the goal of leveraging
-                                    technology to make the world around them better.</p>
-                            </div>
-                        </div>
-                        <div class="text-content">
-                            <i class="far fa-check-circle pull-left"></i>
-                            <div class="text">
-                                <p>Our team consists of people with a variety of skills, ranging from software
-                                    development to IoT, AI etc. Putting the same skills to use has yielded us a good
-                                    track record in number of events and competitions as well.</p>
-                            </div>
-                        </div>
-                        <div class="buttons">
-                            <a href="aboutus.html" class="btn btn-medium btn-green">Contact Us<i
-                                    class="fas fa-long-arrow-alt-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <img src="images/png-images/green-energy.png" class="img-responsive" alt="" data-aos="fade-right">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About section- Text right ends here  -->
-
 
     <!-- our work -->
     <div class="pricing-tables padding-top50 padding-bottom50">
@@ -437,80 +352,75 @@
     <!-- Our inititative -->
     <div class="pricing-tables padding-top50 padding-bottom50">
         <div class="custom-width">
-            <div class="row">
+            <div class="row ">
                 <div class="main-title text-center">
                     <h2>Our Initiatives</h2>
                     <p>While we are always focused on delivering the very best to our clients, we also have our own
-                        ventures and initiatives that we've been working on.
-                    </p>
+                        ventures and initiatives that we've been working on.</p>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 initiative-section" style="justify-content: center;">
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
-                                <!-- <div class="price">19.99$/month</div> -->
-                                <div class="table mobile-margin-bottom work-box-sizing">
-                                    <div class="table-img">
-                                        <img data-aos="fade-up" src="images/Workimg/atl++.png"
-                                            class="img-center img-responsive work-img" alt="Wordpress Hosting">
-                                    </div>
-                                    <div class="table-content">
-                                        <h4>ATL++</h4>
-                                        <p class="text-justify">An edu-tech initiative, based around leveraging AI and
-                                            Robotics to enhance the existing education system.</p>
-                                        <div class="table-list">
-                                            <!-- <ul>
-                                                <li><i data-aos="zoom-in" class="fa fa-plus"></i> Fully Customized Servers</li>
-                                                <li><i data-aos="zoom-in" data-aos-delay="50" class="fa fa-plus"></i> Multi Core
-                                                    and Turbo Speed</li>
-                                                <li><i data-aos="zoom-in" data-aos-delay="100" class="fa fa-plus"></i> Unlimited
-                                                    SDD Space </li>
-                                                <li><i data-aos="zoom-in" data-aos-delay="150" class="fa fa-times"></i> Unlimited
-                                                    MySQL Databases</li>
-                                                <li><i data-aos="zoom-in" data-aos-delay="200" class="fa fa-times"></i>Multi CPU
-                                                    and Ultra Speed</li>
-                                            </ul> -->
-                                        </div>
-                                        <div class="buttons">
-                                            <a href="#" class="btn btn-green btn-medium  work-btn"> Know More</a>
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="row initiative-section">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+                        <!-- <div class="price">19.99$/month</div> -->
+                        <div class="table mobile-margin-bottom work-box-sizing">
+                            <div class="table-img">
+                                <img data-aos="fade-up" src="images/Workimg/atl++.png"
+                                    class="img-center img-responsive work-img" alt="Wordpress Hosting">
                             </div>
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                <!-- <div class="price green-bg mobile-margin-top">29.99$/month</div> -->
-                                <div class="table mobile-margin-bottom work-box-sizing">
-                                    <div class="table-img">
-                                        <img data-aos="fade-up" data-aos-delay="100" src="images/Workimg/covid19.png"
-                                            class="img-center img-responsive work-img" alt="Wordpress Hosting">
-                                    </div>
-                                    <div class="table-content">
-                                        <h4>Covid-19 platform</h4>
-                                        <p class="text-justify">An incentivised news sharing platform, that curbs the
-                                            spread of fake news which has proven to be very harmful.</p>
-                                        <div class="table-list">
-                                            <!-- <ul>
-                                                <li><i data-aos="zoom-in" class="fa fa-plus"></i> Fully Customized Servers</li>
-                                                <li><i data-aos="zoom-in" data-aos-delay="50" class="fa fa-plus"></i> Multi Core
-                                                    and Turbo Speed</li>
-                                                <li><i data-aos="zoom-in" data-aos-delay="100" class="fa fa-plus"></i> Unlimited
-                                                    SDD Space</li>
-                                                <li><i data-aos="zoom-in" data-aos-delay="150" class="fa fa-times"></i> Unlimited
-                                                    MySQL Databases</li>
-                                                <li><i data-aos="zoom-in" data-aos-delay="200" class="fa fa-times"></i>Multi CPU
-                                                    and Ultra Speed</li>
-                                            </ul> -->
-                                        </div>
-                                        <div class="buttons">
-                                            <a href="#" class="btn btn-green btn-medium work-btn"> Know More</a>
-                                        </div>
-                                    </div>
+                            <div class="table-content">
+                                <h4>ATL++</h4>
+                                <p class="text-justify">An edu-tech initiative, based around leveraging AI and Robotics
+                                    to enhance the existing education system.</p>
+                                <div class="table-list">
+                                    <!-- <ul>
+                                        <li><i data-aos="zoom-in" class="fa fa-plus"></i> Fully Customized Servers</li>
+                                        <li><i data-aos="zoom-in" data-aos-delay="50" class="fa fa-plus"></i> Multi Core
+                                            and Turbo Speed</li>
+                                        <li><i data-aos="zoom-in" data-aos-delay="100" class="fa fa-plus"></i> Unlimited
+                                            SDD Space </li>
+                                        <li><i data-aos="zoom-in" data-aos-delay="150" class="fa fa-times"></i> Unlimited
+                                            MySQL Databases</li>
+                                        <li><i data-aos="zoom-in" data-aos-delay="200" class="fa fa-times"></i>Multi CPU
+                                            and Ultra Speed</li>
+                                    </ul> -->
+                                </div>
+                                <div class="buttons">
+                                    <a href="#" class="btn btn-green btn-medium  work-btn"> Know More</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <!-- <div class="price green-bg mobile-margin-top">29.99$/month</div> -->
+                        <div class="table mobile-margin-bottom work-box-sizing">
+                            <div class="table-img">
+                                <img data-aos="fade-up" data-aos-delay="100" src="images/Workimg/covid19.png"
+                                    class="img-center img-responsive work-img" alt="Wordpress Hosting">
+                            </div>
+                            <div class="table-content">
+                                <h4>Covid-19 platform</h4>
+                                <p class="text-justify">An incentivised news sharing platform, that curbs the spread of
+                                    fake news which has proven to be very harmful.</p>
+                                <div class="table-list">
+                                    <!-- <ul>
+                                        <li><i data-aos="zoom-in" class="fa fa-plus"></i> Fully Customized Servers</li>
+                                        <li><i data-aos="zoom-in" data-aos-delay="50" class="fa fa-plus"></i> Multi Core
+                                            and Turbo Speed</li>
+                                        <li><i data-aos="zoom-in" data-aos-delay="100" class="fa fa-plus"></i> Unlimited
+                                            SDD Space</li>
+                                        <li><i data-aos="zoom-in" data-aos-delay="150" class="fa fa-times"></i> Unlimited
+                                            MySQL Databases</li>
+                                        <li><i data-aos="zoom-in" data-aos-delay="200" class="fa fa-times"></i>Multi CPU
+                                            and Ultra Speed</li>
+                                    </ul> -->
+                                </div>
+                                <div class="buttons">
+                                    <a href="#" class="btn btn-green btn-medium work-btn"> Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
 
             </div>
         </div>
@@ -518,168 +428,58 @@
     <!-- Our work content ends here -->
 
 
-
-
-    <!-- Separated Section -->
-    <div class="dual-section lighter-bg padding-top50 padding-bottom50">
+    <!-- achievements in lists -->
+    <div class="list-features2 padding-bottom30 padding-top50" style="background-color:#19233f">
         <div class="custom-width">
             <div class="row">
                 <div class="main-title title-white text-center">
-                    <h2>Our Services</h2>
-                    <p> We
-                        do everything from web design, web/app development, consulting, maintenance, graphics,
-                        marketing, and everything in between! </p>
+                    <h2>Endeavors and Accolades</h2>
+
                 </div>
-                <div class="col-sm-6">
-                    <div class="left-content">
-                        <div class="features">
-                            <i class="fa fa-cubes pull-left" data-aos="zoom-in"></i>
-                            <div class="text">
-                                <h4>Website and Mobile app Development</h4>
-                                <p>We provide complete start to end development for both websites and mobile apps.</p>
-                            </div>
-                        </div>
-                        <div class="features">
-                            <i class="fa fa-exchange-alt pull-left" data-aos="zoom-in" data-aos-delay="100"></i>
-                            <div class="text">
-                                <h4>APIs and Webkits</h4>
-                                <p>We provide API and Webkit development services as well.</p>
-                            </div>
-                        </div>
-                        <div class="features">
-                            <i class="fa fa-microchip pull-left" data-aos="zoom-in" data-aos-delay="200"></i>
-                            <div class="text">
-                                <h4>
-                                    IoT Solutions</h4>
-                                <p>We also work in the domain of IoT and cover everything from cloud services to
-                                    deployment.</p>
-                            </div>
-                        </div>
+                <div class="col-sm-4">
+                    <div class="left-lists">
+                        <ul>
+                            <li>Top 27 in West Zone of DRUSE an Event organized by DRDO to celebrate their Diamond
+                                Jubilee</li>
+                            <li>Two Projects selected for India International Science Festival 2018, both of which were
+                                printed in the year book of IISF launched by Honorable President Shri Ram Nath Kovind.
+                            </li>
+                            <li>MHRD innovation cell contributors 2019.</li>
+
+                        </ul>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="right-content">
-                        <div class="features">
-                            <i class="fa fa-chart-line pull-left" data-aos="zoom-in"></i>
-                            <div class="text">
-                                <h4>
-                                    Maintenance/Deployment Solutions</h4>
-                                <p>We offer website maintenance and deployment services.</p>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div class="features">
-                            <i class="fa fa-database pull-left" data-aos="zoom-in" data-aos-delay="100"></i>
-                            <div class="text">
-                                <h4>Database and Cloud Solutions</h4>
-                                <p>We work on elevating the existing platforms to newer technologies by providing cloud
-                                    and database solutions.</p>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div class="features">
-                            <i class="fa fa-code pull-left" data-aos="zoom-in" data-aos-delay="200"></i>
-                            <div class="text">
-                                <h4>
-                                    AI/ML Solutions</h4>
-                                <p>Similar, to elevating platforms using cloud solutions, we also provide AI & ML
-                                    solutions to create more cutting edge and innovative products.</p>
-                                <p></p>
-                            </div>
-                        </div>
+                <div class="col-sm-4">
+                    <div class="left-lists">
+                        <ul>
+                            <li>DTU HACK 2.0 Winners</li>
+                            <li>Smart India Hackathon 2019: Software Edition Winners</li>
+                            <li>India Innovation Series 2019 Winners</li>
+                            <li>India Hackathon Series 2020 Winners
+                            </li>
+                            <li>Top 7 in Rajasthan Digifest 2019</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="left-lists">
+                        <ul>
+                            <li>RTU Hackathon 2018 Winners</li>
+                            <li>Field Testing project in collaboration with EESL.</li>
+                            <li>Shortlisted for IICDC semifinals 2019-20. (Ongoing)
+                            </li>
+                            <li>Part of Google Built of Digital India Bootcamp 2019-20</li>
+
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Separated Section ends here-->
+    <!-- Achievements in lists ends here -->
 
 
 
-
-    <!-- Testimonials slider -->
-    <section class="testimonials " id="carousel" style="background-color: #19233f;">
-        <div class="custom-width">
-            <div class="row">
-                <div class="main-title text-center">
-                    <h3>Testimonials</h3>
-                    <h2>What some of our Amazing Clients say</h2>
-
-                </div>
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="4000">
-                        <ol class="carousel-indicators">
-                            <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
-                            <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="item">
-                                <div class="profile-circle"><img src="images/other/testimonial1.jpg"
-                                        class="img-responsive" alt=""></div>
-                                <blockquote>
-                                    <p><i class="fa quote fa-quote-right fa-sm pull-left"></i><br>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis
-                                        nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus. <i
-                                            class="fa quote fa-quote-right fa-sm"></i></p>
-                                    <small>www.domainname.com</small>
-                                </blockquote>
-                            </div>
-                            <div class="item">
-                                <div class="profile-circle"><img src="images/other/testimonial2.jpg"
-                                        class="img-responsive" alt="">
-                                </div>
-                                <blockquote>
-                                    <p><i class="fa quote fa-quote-right fa-sm pull-left"></i>
-                                        <br>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis
-                                        nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus. <i
-                                            class="fa quote fa-quote-right fa-sm "></i></p>
-                                    <small>www.domainname.com</small>
-                                </blockquote>
-                            </div>
-                            <div class="active item">
-                                <div class="profile-circle"><img src="images/other/testimonial1.jpg"
-                                        class="img-responsive" alt=""></div>
-                                <blockquote>
-                                    <p><i class="fa quote fa-quote-right fa-sm pull-left"></i>
-                                        <br>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis
-                                        nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus. <i
-                                            class="fa quote fa-quote-right fa-sm "></i></p>
-                                    <small>www.domainname.com</small>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--  Testimonials slider ends here -->
-
-    <!-- Call to action -->
-    <!-- <div class="call-to-action cta-green">
-        <div class="custom-width">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h3>Get in touch</h3>
-                    <p>We cater to all your tech needs in the era of internet!</p>
-
-                </div>
-                <div class="col-sm-6">
-                    <div class="buttons">
-                        <a href="#" class="btn btn-outline btn-large">Contact Us <i
-                                class="fas fa-long-arrow-alt-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Call to action ends here -->
 
     <!-- Dark Footer -->
     <footer>
@@ -767,15 +567,16 @@
     </footer>
     <!-- Daek Footer ends here -->
 
-    <script src="lottie.js"></script>
-    <script src="play.js"></script>
+
+
+
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.js"></script>
     <!--Fake Loader -->
-    <!-- <script src="js/fakeLoader.min.js"></script> -->
+    <script src="js/fakeLoader.min.js"></script>
     <!-- contact form -->
     <script src="js/validator.js"></script>
-    <!-- <script src="js/contact.js.html"></script> -->
+    <script src="js/contact.js.html"></script>
     <!-- bootstrap-->
     <script src="js/bootsnav.js"></script>
     <script src="js/bootstrap.min.js"></script>
