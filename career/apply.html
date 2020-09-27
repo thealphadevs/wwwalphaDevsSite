@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Career Apply</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="container-fluid px-0">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="images/signup-img.jpg" alt="">
+                </div>
+                <div class="signup-form">
+                    <form method="POST" class="register-form" id="register-form">
+                        <h2 class="text-center">Career registration form</h2>
+                        <div class="form-row">
+                            <div class="form-group col-12">
+                                <label for="name">Name :</label>
+                                <input type="text" name="name" id="name" required />
+                            </div>
+                            <div class="form-group col-12">
+                                <label for="address">Email ID:</label>
+                                <input type="email" name="email" id="email" required />
+                            </div>
+                            <div class="form-group col-12">
+                                <label for="contact">Contact :</label>
+                                <input type="number" name="contact" id="contact" required />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-12">
+                                <div class="form-radio mb-0">
+                                    <label for="gender" class="radio-label">Gender :</label>
+                                    <div class="form-radio-item">
+                                        <input type="radio" name="gender" id="male">
+                                        <label for="male">Male</label>
+                                        <span class="check"></span>
+                                    </div>
+                                    <div class="form-radio-item">
+                                        <input type="radio" name="gender" id="female">
+                                        <label for="female">Female</label>
+                                        <span class="check"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="course">Branch :</label>
+                            <div class="form-select">
+                                <select name="course" id="course">
+                                    <option value="" selected disabled>Select your Branch</option>
+                                    <option value="cs">CS</option>
+                                    <option value="it">IT</option>
+                                    <option value="ec">EC</option>
+                                    <option value="ee">EE</option>
+                                    <option value="mech">MECH</option>
+                                </select>
+                                <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                            </div>
+                        </div>
+                        <div class="form-group mt-4">
+                            <div class="form-row px-2">
+                                <label for="gender col-12" class="">Which position are you interested in
+                                    :</label>
+                                <div class="form-radio-item col-6">
+                                    <input type="radio" name="pos" id="fe">
+                                    <label for="fe">Front End Developer
+                                    </label>
+                                    <span class="check"></span>
+                                </div>
+                                <div class="form-radio-item col-6">
+                                    <input type="radio" name="pos" id="be">
+                                    <label for="be">Back End Developer: Node JS
+                                    </label>
+                                    <span class="check"></span>
+                                </div>
+                                <div class="form-radio-item col-6">
+                                    <input type="radio" name="pos" id="cont">
+                                    <label for="cont">Content Curator/Developer
+                                    </label>
+                                    <span class="check"></span>
+                                </div>
+                                <div class="form-radio-item col-6">
+                                    <input type="radio" name="pos" id="ui">
+                                    <label for="ui">UI/UX Designer (Graphics)
+                                    </label>
+                                    <span class="check"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-12">
+                                <label for="resume">Link to Resume. (Uploaded on drive) :</label>
+                                <input type="text" name="resume" id="resume" required />
+                            </div>
+                            <div class="form-group col-12">
+                                <label for="address">Link to your profile:</label>
+                                <input type="email" name="email" id="email" required />
+                                <small class="text-muted">(Any of these: GitHub/Pinterest/Blog/Behance or any other
+                                    relevant platform
+                                    that reflects your
+                                    work.)</small>
+                            </div>
+                        </div>
+                        <div class="form-submit">
+                            <input type="submit" value="Reset All" class="submit" name="reset" id="reset" />
+                            <input type="submit" value="Submit Form" class="submit" name="submit" id="submit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
