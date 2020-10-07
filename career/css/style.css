@@ -273,7 +273,7 @@ input[type=radio] {
 
 img {
   max-width: 100%;
-  height: auto;
+  height: -webkit-fill-available;
 }
 
 figure {
@@ -315,7 +315,9 @@ body {
   line-height: 1.8;
   color: #222;
   font-weight: 400;
-  background: #282828;
+  background-image: url('https://cdn.pixabay.com/photo/2016/11/29/06/18/home-office-1867761_960_720.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .container {
@@ -325,9 +327,16 @@ body {
   background: #fff;
 }
 
-.signup-img,
+@media(){
+
+}
 .signup-form {
+  background: #fff;
   width: 50%;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-radius: 10px;
 }
 
 .signup-img {
@@ -343,7 +352,7 @@ body {
 }
 
 .form-row .form-group {
-  width: 50%;
+  width: 100%;
   padding: 0 15px;
 }
 
@@ -511,7 +520,7 @@ select {
 }
 
 .submit {
-  width: 140px;
+  /* width: 140px; */
   height: 40px;
   display: inline-block;
   font-family: 'Poppins';
