@@ -995,3 +995,12 @@ font-size: 18px;
     color: white;
     padding: 10px 0;
 }
+.alpha-crat-sec_img
+{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
