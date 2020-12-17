@@ -947,3 +947,51 @@ font-size: 18px;
         display: block;
     }
 }
+
+
+.alpha-crat-sec
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+@media(max-width:992px)
+{
+    .alpha-crat-sec
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.alpha-crat-sec_text
+{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.alpha-crat-sec_text h2
+{
+    font-size: 30px;
+    font-weight: 500    ;
+    margin: 0;
+    padding: 10px 0;
+}
+.alpha-crat-sec_text h1
+{
+    font-size: 52px;
+    font-weight: bolder;
+    color: white;
+    margin: 0;
+    padding: 10px 0;
+}
+.alpha-crat-sec_text p
+{
+    font-size: 18px ;
+    font-weight: 400;
+    color: white;
+    padding: 10px 0;
+}
