@@ -580,6 +580,20 @@
 }
 
 @media only screen and (max-width:767px) {
+    .list-work{
+        margin-top: 3rem;
+        padding-left: 2rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .list-work li{
+        list-style: decimal;
+        width: calc(50% - (2.4rem/2));
+        line-height: 4rem;
+    }
+
     .ssl-boxes .margin-bottom-xs {
         margin-bottom: 30px;
     }
@@ -668,6 +682,11 @@
     .navbar {
         padding-top: 20px;
         padding-bottom: 10px;
+    }
+
+    .home-carousel{
+        height: auto;
+        padding-bottom: 3rem;
     }
 
     .top-bar .left-topbar {
@@ -828,6 +847,12 @@
 }
 
 @media only screen and (max-width:580px) {
+
+    .list-work li {
+        list-style: decimal;
+        width: 100%;
+    }
+
     .pricing-tables-light .table-content li {
         text-align: left;
     }
