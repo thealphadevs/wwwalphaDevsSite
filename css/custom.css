@@ -20,7 +20,7 @@ h6 {
 @media(max-width:992px) and (min-width:768px) {
     .work-btn {
 
-        width: 86% !important;
+        width: 80% !important;
 
     }
 }
@@ -1003,4 +1003,40 @@ font-size: 18px;
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width:1500px) and (min-width:1400px)
+{
+    .resp-card
+    {
+        height: 451px;
+    }
+}
+@media (max-width:1290px) and (min-width:1200px)
+{
+    .resp-card
+    {
+        height: 451px;
+    }
+}
+@media (max-width:425px)
+{
+    .resp-card
+    {
+        height: 400px;
+    }
+}
+@media (max-width:1200px) and (min-width:992px)
+{
+    .resp-btn-card
+    {
+        width: 80% !important;
+    }
+}
+@media (max-width:992px) and (min-width:800px)
+{
+    .resp-btn-card
+    {
+        width: 80% !important;
+    }
 }
