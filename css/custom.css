@@ -1,3 +1,7 @@
+.mt-5 {
+    margin-top: 5rem;
+}
+
 h1,
 h2,
 h3,
@@ -900,103 +904,93 @@ form a {
 
 
 
-@media (max-width: 992px)
-{
+@media (max-width: 992px) {
     nav.navbar.bootsnav .navbar-toggle {
         float: left !important;
     }
 }
 
 
-.fa-info-circle
-{
-font-size: 18px;
+.fa-info-circle {
+    font-size: 18px;
 }
 
 
-@media(max-width:992px) and (min-width:768px)
-{
-    nav.navbar.bootsnav .navbar-header
-    {
+@media(max-width:992px) and (min-width:768px) {
+    nav.navbar.bootsnav .navbar-header {
         padding-top: 18px;
     }
-    .fa-info-circle
-    {
+
+    .fa-info-circle {
         margin-top: 16px;
     }
 }
 
-@media(max-width:365px)
-{
-    .table-content
-    {
+@media(max-width:365px) {
+    .table-content {
         margin-top: -20px;
     }
 }
 
 
-.center-align
-{
+.center-align {
     display: flex;
     justify-content: center;
 }
-@media(max-width:800px)
-{
-    .center-align
-    {
+
+@media(max-width:800px) {
+    .center-align {
         display: block;
     }
 }
 
 
-.alpha-crat-sec
-{
+.alpha-crat-sec {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
-@media(max-width:992px)
-{
-    .alpha-crat-sec
-    {
+
+@media(max-width:992px) {
+    .alpha-crat-sec {
         flex-direction: column;
         align-items: center;
     }
 }
-.alpha-crat-sec_text
-{
+
+.alpha-crat-sec_text {
     display: flex;
     flex-direction: column;
     align-self: center;
     text-align: center;
     justify-content: center;
     align-items: center;
-    
+
 }
-.alpha-crat-sec_text h2
-{
+
+.alpha-crat-sec_text h2 {
     font-size: 30px;
-    font-weight: 500    ;
+    font-weight: 500;
     margin: 0;
     padding: 10px 0;
 }
-.alpha-crat-sec_text h1
-{
+
+.alpha-crat-sec_text h1 {
     font-size: 52px;
     font-weight: bolder;
     color: white;
     margin: 0;
     padding: 10px 0;
 }
-.alpha-crat-sec_text p
-{
-    font-size: 18px ;
+
+.alpha-crat-sec_text p {
+    font-size: 18px;
     font-weight: 400;
     color: white;
     padding: 10px 0;
 }
-.alpha-crat-sec_img
-{
+
+.alpha-crat-sec_img {
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -1005,38 +999,32 @@ font-size: 18px;
     align-items: center;
 }
 
-@media (max-width:1500px) and (min-width:1400px)
-{
-    .resp-card
-    {
+@media (max-width:1500px) and (min-width:1400px) {
+    .resp-card {
         height: 451px;
     }
 }
-@media (max-width:1290px) and (min-width:1200px)
-{
-    .resp-card
-    {
+
+@media (max-width:1290px) and (min-width:1200px) {
+    .resp-card {
         height: 451px;
     }
 }
-@media (max-width:425px)
-{
-    .resp-card
-    {
+
+@media (max-width:425px) {
+    .resp-card {
         height: 400px;
     }
 }
-@media (max-width:1200px) and (min-width:992px)
-{
-    .resp-btn-card
-    {
+
+@media (max-width:1200px) and (min-width:992px) {
+    .resp-btn-card {
         width: 80% !important;
     }
 }
-@media (max-width:992px) and (min-width:800px)
-{
-    .resp-btn-card
-    {
+
+@media (max-width:992px) and (min-width:800px) {
+    .resp-btn-card {
         width: 80% !important;
     }
 }
