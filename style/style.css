@@ -850,10 +850,10 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a:hover {
 .home-carousel img.img-absolute {
     position: absolute;
     z-index: -1;
-    top: -50px;
-    left: -80px;
+    top: -70px;
+    left: 80px;
     opacity: .08;
-    width: 700px;
+    width: 1200px;
 }
 
 .home-carousel p {
@@ -880,7 +880,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a:hover {
 }
 
 .home-title h2 {
-    font-size: 49px;
+    font-size: 80px;
     margin-bottom: 5px;
     color: #e6ecfd;
     font-weight: 600;

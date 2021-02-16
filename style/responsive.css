@@ -320,9 +320,9 @@
     }
 
     .home-carousel img.img-absolute {
-        width: 100%;
-        left: 0;
-        top: 0;
+        width: 900px;
+        left: -90px;
+        top: -50px;
     }
 
     .colorful-boxes .btn {
@@ -580,7 +580,7 @@
 }
 
 @media only screen and (max-width:767px) {
-    .list-work{
+    .list-work {
         margin-top: 3rem;
         padding-left: 2rem;
         display: flex;
@@ -588,7 +588,7 @@
         justify-content: space-between;
     }
 
-    .list-work li{
+    .list-work li {
         list-style: decimal;
         width: calc(50% - (2.4rem/2));
         line-height: 4rem;
@@ -684,7 +684,7 @@
         padding-bottom: 10px;
     }
 
-    .home-carousel{
+    .home-carousel {
         height: auto;
         padding-bottom: 3rem;
     }

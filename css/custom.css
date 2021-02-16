@@ -21,6 +21,21 @@ h6 {
     bottom: 20px !important;
 }
 
+.padding-top100 {
+    padding-top: 10vh;
+}
+
+.list-work {
+    margin-top: 3rem;
+    line-height: 2;
+    font-size: 2rem;
+}
+
+.list-work li {
+    list-style: decimal;
+    margin-left: 2rem;
+}
+
 @media(max-width:992px) and (min-width:768px) {
     .work-btn {
 
@@ -54,6 +69,12 @@ h6 {
 
         width: 86% !important;
         bottom: 20px !important;
+    }
+}
+
+@media(max-width: 540px) {
+    .search-domain {
+        display: none;
     }
 }
 
@@ -877,11 +898,6 @@ form a {
     z-index: 99999;
     margin-top: auto;
     margin-bottom: auto;
-}
-
-.phn-text,
-.img-absolute {
-    display: none;
 }
 
 @media(max-width: 765px) {
